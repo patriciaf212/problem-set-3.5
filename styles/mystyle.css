@@ -1,7 +1,9 @@
 /*mystyle.css */
 body {
-    background-color: lightblue;
-
+    background-color: white;
+}
+div {
+  background-color: powderblue;
 }
 h2 {
   text-align: center;
@@ -9,4 +11,9 @@ h2 {
 
 p {
   text-align: center;
+}
+img {
+  border-style: solid;
+  border-radius: 8px;
+  border-color: black;
 }

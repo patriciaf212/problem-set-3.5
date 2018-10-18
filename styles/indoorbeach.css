@@ -1,8 +1,15 @@
 /*mystyle.css */
 body {
-    background-color: lightblue;
-
+    background-color: white;
+}
+div {
+  background-color: powderblue;
 }
 figcaption {
   font-weight: bold;
+}
+img {
+  border-style: solid;
+  border-radius: 8px;
+  border-color: white;
 }

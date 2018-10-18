@@ -1,5 +1,10 @@
 /*mystyle.css */
 body {
-    background-color: lightblue;
+    background-color: white;
 
+}
+img {
+  border-style: solid;
+  border-radius: 8px;
+  border-color: white;
 }
