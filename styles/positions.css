@@ -1,9 +1,33 @@
 /*mystyle.css */
+/*mystyle.css */
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+}
+li {
+    float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: cornflowerblue;
+}
 body {
     background-color: white;
 }
 div {
-  background-color: mistyrose;
+  background-color: powderblue;
 }
 h2{
   text-decoration: underline;
@@ -15,4 +39,7 @@ img {
 }
 #libero {
   border-style: double;
+}
+p {
+  font-size: 20px;
 }

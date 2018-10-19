@@ -1,10 +1,38 @@
 /*mystyle.css */
 body {
     background-color: white;
-
+}
+div {
+  background-color: mistyrose;
 }
 img {
   border-style: solid;
   border-radius: 8px;
   border-color: white;
+}
+#skills {
+  font-size: 20px;
+}
+#navbar {
+    display: inline;
+}
+#bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+}
+#navbar {
+    float: left;
+}
+#navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: cornflowerblue;
 }
