@@ -81,3 +81,14 @@ h1[style] {
 h2[style] {
   font-family: times;
 }
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
