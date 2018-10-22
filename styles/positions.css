@@ -1,5 +1,4 @@
 /*mystyle.css */
-/*mystyle.css */
 li {
     display: inline;
 }
@@ -19,9 +18,11 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 li a:hover {
   background-color: cornflowerblue;
+  color: red;
 }
 body {
     background-color: white;
@@ -29,7 +30,7 @@ body {
 div {
   background-color: powderblue;
 }
-h2{
+.positions{
   text-decoration: underline;
 }
 img {
@@ -39,7 +40,35 @@ img {
 }
 #libero {
   border-style: double;
+  width: 500px;
 }
 p {
   font-size: 20px;
+}
+h3 {
+  color: dimgray;
+}
+figcaption {
+  font-weight: bold;
+}
+* {
+  font-family: arial;
+}
+a:link {
+  color: black;
+}
+a:active{
+  color: purple;
+}
+a:hover {
+  color: red;
+}
+h3 + p {
+  font-size: 18px;
+}
+h1[style] {
+  font-family: times;
+}
+h2[style] {
+  font-family: times;
 }

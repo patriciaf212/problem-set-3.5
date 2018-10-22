@@ -18,9 +18,11 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 li a:hover {
   background-color: cornflowerblue;
+  color: red;
 }
 body {
     background-color: white;
@@ -29,15 +31,16 @@ div {
   background-color: powderblue;
 }
 h1 {
-  text-align: center;
+  text-align:center;
 }
-
 p {
   text-align: center;
   font-size: 20px;
 }
 #volleyball {
   border-style: none;
+  height: 200px;
+  width: 200px;
 }
 img {
   border-style: solid;
@@ -46,4 +49,35 @@ img {
 }
 table {
   font-size: 20px;
+}
+a:hover {
+  color: red;
+}
+* {
+  font-family: arial;
+}
+#history {
+  height: 350px;
+}
+#vb {
+  height: 350px;
+  width: 500px;
+}
+a:link {
+  color: black;
+}
+a:active{
+  color: purple;
+}
+a:hover {
+  color: red;
+}
+h1 + p {
+  font-size: 18px;
+}
+h1[style] {
+  font-family: times;
+}
+h2[style] {
+  font-family: times;
 }

@@ -1,5 +1,4 @@
 /*mystyle.css */
-/*mystyle.css */
 li {
     display: inline;
 }
@@ -19,9 +18,11 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 li a:hover {
   background-color: cornflowerblue;
+  color: red;
 }
 body {
     background-color: white;
@@ -39,4 +40,28 @@ img {
 }
 table {
   font-size: 20px;
+}
+* {
+  font-family: arial;
+}
+#BYU {
+  width: 500px;
+}
+#olympic {
+   width: 500px;
+}
+a:link {
+  color: black;
+}
+a:active{
+  color: purple;
+}
+a:hover {
+  color: red;
+}
+h1[style] {
+  font-family: times;
+}
+h2[style] {
+  font-family: times;
 }
