@@ -8,7 +8,10 @@ div {
 img {
   border-style: solid;
   border-radius: 8px;
-  border-color: white;
+  border-color: black;
+}
+* {
+  font-family: arial;
 }
 .skills {
   font-size: 20px;
@@ -35,11 +38,8 @@ img {
   font-weight: bold;
 }
 #navbar a:hover {
-  background-color: cornflowerblue;
-  color: red;
-}
-* {
-  font-family: arial;
+    background-color: cornflowerblue;
+    color: black;
 }
 #serving {
   height: 300px;
@@ -62,6 +62,7 @@ img {
 }
 a:link {
   color: black;
+  font-weight: bold;
 }
 a:active{
   color: purple;
@@ -74,6 +75,7 @@ ul > li {
 }
 a[target="_blank"] {
   font-weight: bold;
+  font-color: black;
 }
 h1[style] {
   font-family: times;

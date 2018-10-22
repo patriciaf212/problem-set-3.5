@@ -22,7 +22,7 @@ li a {
 }
 li a:hover {
   background-color: cornflowerblue;
-  color: red;
+  color: black;
 }
 body {
     background-color: white;
@@ -35,7 +35,7 @@ h1 {
 }
 p {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 #volleyball {
   border-style: none;
@@ -66,7 +66,7 @@ a:hover {
 a:link {
   color: black;
 }
-a:active{
+a:active {
   color: purple;
 }
 a:hover {

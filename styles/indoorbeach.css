@@ -11,7 +11,7 @@ figcaption {
 img {
   border-style: solid;
   border-radius: 8px;
-  border-color: white;
+  border-color: black;
 }
 ol {
   font-size: 20px;
@@ -39,7 +39,7 @@ ul {
 }
 #navbar a:hover {
   background-color: cornflowerblue;
-  color: red;
+  color: black;
 }
 * {
   font-family: Arial;
